@@ -1,0 +1,25 @@
+{
+  "name": "comp308-w2019_lesson1",
+  "version": "1.0.0",
+  "description": "Comp308-lesson1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshibharti/COMP308_Lesson1.git"
+  },
+  "author": "Sakshi Bharti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakshibharti/COMP308_Lesson1/issues"
+  },
+  "homepage": "https://github.com/sakshibharti/COMP308_Lesson1#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
+  }
+}
