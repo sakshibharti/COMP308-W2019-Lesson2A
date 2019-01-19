@@ -21,7 +21,7 @@ var objects;
             return _this;
         }
         Object.defineProperty(Student.prototype, "studentID", {
-            //PUBLIC PROPERTIES
+            // PUBLIC PROPERTIES
             get: function () {
                 return this._studentID;
             },
@@ -31,17 +31,13 @@ var objects;
             enumerable: true,
             configurable: true
         });
-        //PRIVATE METHODS
-        //PUBLIC METHODS
+        // PRIVATE METHODS
+        // PUBLIC METHODS
         Student.prototype.studies = function () {
-            console.log(this.name + " with studentID: " + this.studentID + " is studying");
+            console.log(this.name + " with studentID: " + this.studentID + " is studying.");
         };
         return Student;
     }(objects.Person));
     objects.Student = Student;
 })(objects || (objects = {}));
-/*
-const person: objects.Person= new objects.Person(30, "Sakshi");
-person.saysHello();
-*/ 
 //# sourceMappingURL=student.js.map

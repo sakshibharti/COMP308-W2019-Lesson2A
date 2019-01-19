@@ -6,7 +6,7 @@ var objects;
             this.name = name;
         }
         Object.defineProperty(Person.prototype, "age", {
-            //PUBLIC PROPERTIES
+            // PUBLIC PROPERTIES
             get: function () {
                 return this._age;
             },
@@ -27,7 +27,7 @@ var objects;
             configurable: true
         });
         Person.prototype.saysHello = function () {
-            console.log(this.name + "says Hello!");
+            console.log(this.name + " says Hello!");
         };
         return Person;
     }());

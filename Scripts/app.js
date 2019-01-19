@@ -1,7 +1,7 @@
-//IIFE -- Immediately Invoked Function Expression
+// IIFE -- Immediately Invoked Function Expression
 (function () {
     function Start() {
-        var student = new objects.Student(30, "Sarah", "P0089878");
+        var student = new objects.Student(20, "Sarah", "P008490000");
         student.saysHello();
         student.studies();
     }
